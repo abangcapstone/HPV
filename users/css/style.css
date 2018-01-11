@@ -1,0 +1,164 @@
+body {
+padding-top: 150px;
+padding-bottom: 20px;
+background: url(../images/bg.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+    position: relative;
+    top:0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+
+  
+}
+  /* SIGN IN */
+
+.form-signin  {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  
+  height: 440px;
+  background-color:#f2f2f2;
+    box-shadow: 1px 1px 5px  #8c8c8c;
+}
+.form-signin .form-signin-heading
+ {
+  margin-bottom: 10px;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+ 
+    
+
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: 10px;
+  border-radius: 0;
+  background: url(../images/UserIcon.png) left no-repeat;
+ background-size: 25px;
+    text-indent: 20px;
+    background-color: white;
+  
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-radius: 0;
+  background: url(../images/PasswordIcon.png) left no-repeat;
+ background-size: 25px;
+    text-indent: 20px;
+    background-color: white;
+}
+
+#SignInButton{
+ margin-top: 0px;
+ border-radius: 0;
+
+}
+ /*RECAPTCHA */
+
+.g-recaptcha {
+   transform:scale(0.97);
+   -webkit-transform:scale(0.80);
+   transform-origin:0 0;
+ -webkit-transform-origin:0 0;
+  }
+#headerImage{
+
+   width: 60%;
+   align-self: center;
+   padding-bottom: 20px;
+   margin: 0 auto;
+}
+
+
+@media(max-width:362px){
+
+  .g-recaptcha {
+   transform:scale(0.77);
+   -webkit-transform:scale(0.70);
+   transform-origin:0 0;
+ -webkit-transform-origin:0 0;
+  }
+
+ 
+ 
+}
+
+@media(max-width:276px){
+
+  .g-recaptcha {
+   transform:scale(0.87);
+   -webkit-transform:scale(0.62);
+   transform-origin:0 0;
+ -webkit-transform-origin:0 0;
+  }
+
+ 
+ 
+}
+
+/*SELECT COMPANY */
+
+.selectCompany{
+  max-width: 600px;
+  height:100%;
+  padding: 15px;
+  margin: 0 auto;
+  background-color:#e6e6e6;
+    box-shadow: 1px 1px 5px  #8c8c8c;
+
+}
+
+.logoSize{
+  height: 25px;
+  width: 50px;
+  margin: 0; 
+
+}
+.page-header{
+ margin-top: 5px;
+ border-bottom: 1px solid #c5c5c5 !important ; 
+}
+
+.Placeholder{
+    color:#999;
+
+}
+
+.form-group{
+
+  padding-top: 10px;
+}
+#adjustForm{
+  padding-top: 20px;
+}
+#styleForm{
+  border:2px solid #eee;
+  padding-left: 10px;
+
+}
+
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+  margin-bottom: 10px;
+}
